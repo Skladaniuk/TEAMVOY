@@ -17,6 +17,7 @@ export const MainView = () => {
  
   useEffect(() => {
     pokeFun();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [offset]);
 
   const pokeFun = async () => {
@@ -26,7 +27,7 @@ export const MainView = () => {
     const res = await axios(url);
 
     getPokemon(res.data.results);
-   setLoading(false);
+    setLoading(false);
   };
 
   const getPokemon = async res => {
