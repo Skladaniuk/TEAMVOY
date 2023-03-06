@@ -1,0 +1,38 @@
+.pokemon{
+    
+    width: (100% -30px)/3;
+    padding: 20px 20px 40px 20px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    
+    
+}
+
+
+.pokemon__img{
+    width: 100px;
+    height: 100px;
+    
+}
+.pokemon__name{
+  
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+    .pokemon__types{
+        width: 80px;
+        display: flex;
+        
+        
+    }
+.pokemon__type{
+    margin-right: 15px;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
